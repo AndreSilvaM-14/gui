@@ -1,0 +1,331 @@
+  <!--poner teniendo el plugin (header>h1)+(nav>(ul>(li*8)))+(main>(section>(h2+p))*4)+(footer>h6)-->
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "tittulo";
+    src: url ("../fonts/Sigmar-Regular.ttf")
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ body {
+     background-image: url(../img/galaxy_sm.webp);
+     background-size: contain;
+     background-repeat: repeat;
+     background-position: top center;
+     }
+     
+header {
+    height: auto;
+    font-family: "tittulo", sans-serif;
+    letter-spacing:normal;
+}
+
+header, nav, main, footer{
+
+    color: #92DCE5;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    
+    
+}
+nav {
+    background-color: #000828;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #0B26BF ;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    min-width: 100px
+}
+nav ul li a:link, nav ul li a:visited {
+    text-decoration:none;
+    color: #EEE5E9
+}
+
+nav ul li:hover {
+background-color:  #000000;
+}
+
+section{
+    background-color: #021859;
+    margin: 5px;
+    padding: 30px;
+    overflow-x: auto;
+    width: 80%;
+    font-family: "Fredoka", sans-serif;
+    
+}
+
+main section{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#img {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.img_flot {
+    width: 30%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+#img_gif {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    display: block;
+}
+
+.alineacion {
+    float: right;
+    margin: 0;
+    width: 30%;
+}
+#fondo_box {
+    margin-bottom: 30px;
+    background-image: url(../img/heaven-5114501_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: skyblue;
+}
+
+.img_filtro img{
+    width: 20%;
+    margin: 20px;
+    
+}
+
+.img_filtro {
+    text-align: center;
+    
+}
+
+.img_filtro p; .img_filtro h2 {
+    text-align: justify;   
+}
+.ImgBorderRedondo {
+    border-radius: 300px;
+}
+
+.img_filtro {
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h6 {
+   color: #92DCE5;
+    background-color: #000000;
+}
+
+footer{
+    height: 100px;
+    background-color: #000000;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+#tabla_1_xd {
+    background-color: #14A60F;
+    color:#F4E3B5;
+    border:3px solid #F4E3B5;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+#tabla_1_xd th{
+    font-size-adjust: 20px;
+    background-color: #03178C;
+    color: #F4E3B5;
+}
+#tabla_1_xd th, #tabla_1_xd td {
+    border:3px solid #0B26BF;
+}
+
+
+
+
+#tabla_2_cebras {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F4E3B5;
+}
+
+#tabla_2_cebras th {
+    background-color: #010A26;
+    
+}
+
+#tabla_2_cebras tbody tr:nth-child(even) {
+    background-color: #5776D3;
+}
+#tabla_2_cebras tbody tr:nth-child(odd) {
+    background-color: #14A60F;
+}
+
+#tabla_2_cebras td #tabla_2_cebras th {
+    padding: 10 px;
+    border-width: 5px;
+    border-color: aquamarine;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+#img_flotante {
+    width: 20%;
+}
+
+#tabla_hover {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#tabla_hover th {
+    color:azure;
+    background-color: midnightblue;
+}
+#tabla_hover td {
+    background-color: orangered;
+    border-color: crimson;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#tabla_hover tr:hover {
+    background-color: aqua;
+}
+
+#tabla_hover td:hover {
+    background-color: indianred;
+}
+
+#tabla_hover td #tabla_hover th {
+    border-collapse: collapse;
+    padding:20px;
+    border:3px solid crimson;
+}
+#tabla_hover th:hover {
+    background-color: aquamarine
+}
+
+form {
+    width: 50%;
+    background-color: darkblue;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+label {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: midnightblue;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: aliceblue;
+    color: darkblue;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    background-color: blueviolet;
+    color: darkslategray;
+}
+
+textarea{
+    padding: 10px;
+    background-color: midnightblue;
+    color: aliceblue;
+    font-weight: bold;
+}
+textarea:focus {
+    background-color: blueviolet;
+    color: darkslategray;
+}
+
+input[type=radio]{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon img{
+    width: 10%;
+    height: auto;
+}
+
+ #ico-face {
+     width: 40px;
+     height: auto;
+     float: inherit;
+     display: inline-block;
+            }
+
+#ico-insta {
+     width: 40px;
+     height: auto;
+     float: inherit;
+     display: inline-block;
+            }
+#ico-what {
+     width: 40px;
+     height: auto;
+     float: inherit;
+     display: inline-block ;
+            }
